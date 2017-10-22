@@ -32,15 +32,23 @@ SSH Keyが設定されていない場合は、トップ画面に**`You won't be 
 
 ## BUW(なんちゃってLinux)
 
-正式名称はBash on Ubuntu on Windows。用途としてはWindowsのサブOS、ターミナルの代用。Tera Termと違って、シェルをそのまま使えるので便利。また、VirtualBoxのような仮想化ではないので、動作は非常に軽い(Dockerコンテナに近いイメージ)。
+WindowsのInsiderPreviewのときははBash on Ubuntu on Windowsと呼ばれていました。現在はWindowsストアでUbuntuとして配布されています。用途としてはWindowsのサブOS、ターミナルの代用として使っています。Tera Termと違って、シェルを使えるので便利(まぁOSなんで)。また、VirtualBoxのような仮想化ではないので、動作は非常に軽い(Dockerコンテナに近いイメージ)。ぜひ導入してみてください。
 
-導入方法は「[BUWを導入する]()」を参照してください。
+導入方法は[こちら]()を参照してください。
 
 ## Intellij(Javaのエディタ)
+
+JavaといえばEclipse！！...の時代も終わりつつあるようです。Gitでプロジェクトを管理するケースが増え、Gitと相性のよい**Intellij**(統合開発環境)が選ばれるようになってきています(使ったことないけどEclipseはGitと相性がよくないのかな？)。また、Eclipseの場合は、先頭文字が一致していないと補完機能が動作しませんが、Intellijでは部分一致でコーディングを補完してくれます。非常に親切です。あと、個人的にIntellijの方がデザインが美しいです。
+
+導入方法は[こちら]()を参照してください。
 
 ## Visual Studio Code(TypeScriptのエディタ)
 
 ## Angular(JavaScriptのフレームワーク)
+
+素晴らしすぎるフレームワークです。簡単なWebアプリを作るならAngular以外に選択肢はないでしょう。習得コストは高いかもしれませんが、慣れてしまえば手放せなくなってしまうくらいです。言語はTypeScriptになります。ただ、ビルドするとJavaScriptに変換されるので、JavaScriptが動くブラウザであれば動作します。エディタはVisual Studio Codeがおすすめです。
+
+導入方法は[こちら]()を参照してください。
 
 # Gitコマンド
 
