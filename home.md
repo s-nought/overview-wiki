@@ -30,6 +30,18 @@ SSH Keyが設定されていない場合は、トップ画面に**`You won't be 
 
 # 環境構築
 
+## BUW(なんちゃってLinux)
+
+正式名称はBash on Ubuntu on Windows。用途としてはWindowsのサブOS、ターミナルの代用。Tera Termと違って、シェルをそのまま使えるので便利。また、VirtualBoxのような仮想化ではないので、動作は非常に軽い(Dockerコンテナに近いイメージ)。
+
+導入方法は「[BUWを導入する]()」を参照してください。
+
+## Intellij(Javaのエディタ)
+
+## Visual Studio Code(TypeScriptのエディタ)
+
+## Angular(JavaScriptのフレームワーク)
+
 # Gitコマンド
 
 |用途|コマンド|備考|
