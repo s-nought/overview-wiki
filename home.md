@@ -34,7 +34,7 @@ SSH Keyが設定されていない場合は、トップ画面に**`You won't be 
 
 # Gitコマンド
 
-# 数式を書く
+# Wikiで数式を書く
 
 * 文中に $`e^{i x} = \cos{x} + i \sin{x}`$ のように数式を書ける。
 <pre>
@@ -50,3 +50,5 @@ SSH Keyが設定されていない場合は、トップ画面に**`You won't be 
 ```math
 \zeta(s) = \sum_{n \in \mathbb{N}} \frac{1}{n^s}
 ```
+
+GitLabのMarkdownの書き方については[ここのドキュメント](https://docs.gitlab.com/ee/user/markdown.html)を参照。
