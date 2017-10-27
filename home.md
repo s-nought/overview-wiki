@@ -89,3 +89,7 @@ GitLabのMarkdownの書き方については[ここのドキュメント](https:
 ```math
 \zeta(s) = \sum_{n \in \mathbb{N}} \frac{1}{n^s}
 ```
+
+### 数学の記事を書いてみた
+
+* [フェルミ推定](Fermi)
