@@ -23,7 +23,9 @@ Googleの採用面接で出題されたことで有名になったフェルミ�
 
 言葉だけではわかりづらいので，図を見てみましょう．
 
+<div align="center">
 <img src="/uploads/ccba30e8a9670e815bee70195f14e863/fuji.png" width="300">
+</div>
 
 どうでしょう．想像できましたか？
 
