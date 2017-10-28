@@ -4,11 +4,11 @@
 
 まずやることとして、GitLabのプロジェクトリポジトリにコミットやプッシュをするため、SSH公開鍵の設定をしてもらいます。
 
-ここではBash on Ubuntu on Windows(以下、BUW)でのやり方を紹介します。
+ここではWindows Subsystem on Linux(以下、WSL)でのやり方を紹介します。
 
 ## SSH公開鍵の設定
 
-**1. BUWで次のコマンドを実行します**
+**1. WSLで次のコマンドを実行します**
 
 ```bash
 $ ssh-keygen -t rsa
@@ -38,9 +38,9 @@ SSH Keyが設定されていない場合は、トップ画面に**`You won't be 
 
 @Ohkumaneko が使ってみてよかったものを紹介します。その時々のマイブームで更新していきますね。
 
-## BUW(なんちゃってLinux)
+## WSL(なんちゃってLinux)
 
-WindowsのInsiderPreviewのときはBash on Ubuntu on Windowsと呼ばれていました。現在はWindowsストアでUbuntuとして配布されています。用途としてはWindowsのサブOS、ターミナルの代用として使っています。Tera Termと違って、シェルを使えるので便利(まぁOSなんで)。また、VirtualBoxのような仮想化ではないので、動作は非常に軽い(Dockerコンテナに近いイメージ)。ぜひ導入してみてください。
+WindowsのInsiderPreviewのときはBash on Ubuntu on Windowsと呼ばれていました(OSもUbuntuしかありませんでした)。現在はWindowsストアで配布されています(Ubuntu、OpenSUSE)。用途としてはWindowsのサブOS、ターミナルの代用として使っています。Tera Termと違って、シェルを使えるので便利(まぁOSなんで)。また、VirtualBoxのような仮想化ではないので、動作は非常に軽い(Dockerコンテナに近いイメージ)。ぜひ導入してみてください。
 
 導入方法は[こちら]()を参照してください。
 
@@ -81,12 +81,16 @@ GitLabのMarkdownの書き方については[ここのドキュメント](https:
 
 ## 数式を書く
 
-* 文中に $`e^{i x} = \cos{x} + i \sin{x}`$ のように数式を書ける。
+GitLabでは$`\KaTeX`$のコマンドが利用できるみたいです。
+
+使えるコマンドについては[ここ](https://khan.github.io/KaTeX/function-support.html)を参照してください。
+
+### 文中に数式を書く
 <pre>
 文中に $`e^{i x} = \cos{x} + i \sin{x}`$ のように数式を書ける。
 </pre>
 
-* 独立した行に数式を書く
+### 独立した行に数式を書く
 <pre>
 ```math
 \zeta(s) = \sum_{n \in \mathbb{N}} \frac{1}{n^s}
@@ -94,6 +98,25 @@ GitLabのMarkdownの書き方については[ここのドキュメント](https:
 </pre>
 ```math
 \zeta(s) = \sum_{n \in \mathbb{N}} \frac{1}{n^s}
+```
+
+### 独立した行に**複数行**の数式を書く
+
+式番号の付け方はよくわからない。。。できないのかな？
+
+<pre>
+```math
+\begin{aligned}
+ax^2 + bx + c &= 0 \\
+x &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{aligned}
+```
+</pre>
+```math
+\begin{aligned}
+ax^2 + bx + c &= 0 \\
+x &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\end{aligned}
 ```
 
 ### 数学の記事を書いてみた
