@@ -1,4 +1,4 @@
-# フェルミ推定(英:$`\mathrm{Fermi \ estimate}`$)
+# フェルミ推定(英: $`\mathrm{Fermi \ estimate}`$)
 
 Googleの採用面接に出題されたことで有名になったフェルミ推定ですが、これって一体何なんでしょう？
 
