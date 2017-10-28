@@ -1,4 +1,4 @@
-# オイラーの公式(英:$`\mathrm{Euler's formula}`$)
+# オイラーの公式(英: $`\mathrm{Euler's formula}`$)
 
 ```math
 e^{ix} = \cos{x} + i \sin{x}.
