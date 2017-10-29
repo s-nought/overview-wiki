@@ -40,7 +40,7 @@ SSH Keyが設定されていない場合は、トップ画面に**`You won't be 
 
 ## WSL(なんちゃってLinux)
 
-WindowsのInsiderPreviewのときはBash on Ubuntu on Windowsと呼ばれていました(OSもUbuntuしかありませんでした)。現在はWindowsストアで配布されています(Ubuntu、OpenSUSE)。用途としてはWindowsのサブOS、ターミナルの代用として使っています。Tera Termと違って、シェルを使えるので便利(まぁOSなんで)。また、VirtualBoxのような仮想化ではないので、動作は非常に軽い(Dockerコンテナに近いイメージ)。ぜひ導入してみてください。
+WindowsのInsiderPreviewのときはBash on Ubuntu on Windowsと呼ばれていました(OSもUbuntuしかありませんでした)。現在はWindowsストアで配布されています(Ubuntu、OpenSUSE、Fedora(予定))。用途としてはWindowsのサブOS、ターミナルの代用として使っています。Tera Termと違って、シェルを使えるので便利(まぁOSなんで)。また、VirtualBoxのような仮想化ではないので、動作は非常に軽い(Dockerコンテナに近いイメージ)。ぜひ導入してみてください。
 
 導入方法は[こちら]()を参照してください。
 
