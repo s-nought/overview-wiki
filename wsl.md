@@ -88,3 +88,9 @@ $ sudo apt-get upgrade
 ```
 
 これでGitが最新化されるはず。
+
+※Gitのバージョン確認方法
+
+```bash
+$ git --version
+```
