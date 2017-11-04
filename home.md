@@ -6,6 +6,8 @@
 
 ここではWindows Subsystem on Linux(以下、WSL)でのやり方を紹介します。
 
+まずは「[WSLを導入しよう](https://gitlab.com/n-f-singularity/overview/wikis/wsl)」に従ってWSLを導入してください。
+
 ## SSH公開鍵の設定
 
 **1. WSLで次のコマンドを実行します**
