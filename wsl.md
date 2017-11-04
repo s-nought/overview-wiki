@@ -72,6 +72,17 @@ $ sudo apt install language-pack-ja
 $ sudo update-locale LANG=ja_JP.UTF-8
 ```
 
+### viの設定
+
+コメントのハイライトを変更(デフォルトだと見づらいため)、行番号を表示する。
+
+`/etc/vim/vimrc`に以下を追加
+
+```
+highlight Comment ctermfg=darkgrey
+set number
+```
+
 ### Gitの最新化
 
 デフォルトのリポジトリではGitのバージョンが古いため、リポジトリを変更する。
