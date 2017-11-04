@@ -20,3 +20,20 @@ TortoiseGitには`HTTPS`のURLを設定してください。
 <div align="center">
 <img src="/uploads/507a2de2672c0b6ba9ffa5626bbb4c9c/image.png" width="600">
 </div>
+
+## TortoiseGitの設定と使い方(GUI操作)
+
+## 【参考】Gitコマンドの使い方(CUI操作)
+
+WSLを使って、コマンドラインから操作することも可能です(このやり方がGitの基本)。
+
+|用途|コマンド|備考|
+|---|---|---|
+|追加|git add ファイル名|"."を指定すると新規作成・変更されたファイルを追加|
+|コミット|git commit -a -m "1行コメント"|-|
+|ブランチ切り替え|git checkout ブランチ名|-|
+|プッシュ|git push origin ブランチ名|-|
+|マージ|git merge ブランチ名|マージ後はプッシュをしないと反映されない|
+|フェッチ|git fetch origin|ローカルをリモートに同期する|
+|プル|git pull origin ブランチ名|マージ+フェッチ|
+|クローン|git clone リポジトリのパス|cpコマンドみたいに使える|
