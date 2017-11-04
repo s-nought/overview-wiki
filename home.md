@@ -64,7 +64,7 @@ Gitを利用することで，プロジェクトの変更履歴の記録・追�
 
 WindowsのInsiderPreviewのときはBash on Ubuntu on Windowsと呼ばれていました(OSもUbuntuしかありませんでした)。現在はWindowsストアで配布されています(Ubuntu、OpenSUSE、Fedora(予定))。用途としてはWindowsのサブOS、ターミナルの代用として使っています。Tera Termと違って、シェルを使えるので便利(まぁOSなんで)。また、VirtualBoxのような仮想化ではないので、動作は非常に軽い(Dockerコンテナに近いイメージ)。ぜひ導入してみてください。
 
-導入方法は[こちら]()を参照してください。
+導入方法は[こちら](wsl)を参照してください。
 
 ## Intellij(Javaのエディタ)
 
