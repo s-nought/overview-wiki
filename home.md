@@ -84,19 +84,6 @@ JavaといえばEclipse！！...の時代も終わりつつあるようです。
 
 ## Firebase
 
-# Gitコマンド
-
-|用途|コマンド|備考|
-|---|---|---|
-|追加|`git add ファイル名`|"."を指定すると新規作成・変更されたファイルを追加|
-|コミット|`git commit -a -m "一行コメント"`|-|
-|ブランチ切り替え|`git checkout ブランチ名`|-|
-|プッシュ|`git push origin ブランチ名`|-|
-|マージ|`git merge ブランチ名`|マージ後はプッシュをしないと反映されない|
-|フェッチ|`git fetch origin`|ローカルをリモートに同期する|
-|プル|`git pull origin ブランチ名`|マージ+フェッチ|
-|クローン|`git clone リポジトリのパス`|cpコマンドみたいに使える|
-
 # Markdown記法
 
 GitLabのMarkdownの書き方については[ここのドキュメント](https://docs.gitlab.com/ee/user/markdown.html)を参照。
