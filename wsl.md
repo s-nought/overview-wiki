@@ -71,3 +71,20 @@ $ sudo apt install language-pack-ja
 ```bash
 $ sudo update-locale LANG=ja_JP.UTF-8
 ```
+
+### Gitの最新化
+
+デフォルトのリポジトリではGitのバージョンが古いため、リポジトリを変更する。
+
+```bash
+$ sudo add-apt-repository ppa:git-core/ppa
+```
+
+パッケージの更新を更新する。
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get upgrade
+```
+
+これでGitが最新化されるはず。
