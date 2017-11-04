@@ -60,13 +60,13 @@ $ sudo password root
 
 ### 日本語化
 
-1. 言語パッケージをインストールする。
+言語パッケージをインストールする。
 
 ```bash
 $ sudo apt install language-pack-ja
 ```
 
-2. /etc/default/localeの言語設定を変更する。
+/etc/default/localeの言語設定を変更する。
 
 ```bash
 $ sudo update-locale LANG=ja_JP.UTF-8
