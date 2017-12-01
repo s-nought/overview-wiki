@@ -136,4 +136,4 @@ x &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 
 * [フェルミ推定](Fermi)
 * [オイラーの公式](Euler_formula)
-* [$`e+\pi`$と$`e\pi`$](irrational)
+* [$`e+\piとe\pi`$](irrational)
