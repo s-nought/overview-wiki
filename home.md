@@ -15,8 +15,8 @@
 ```bash
 $ ssh-keygen -t rsa
 ```
-
-`~/.ssh/`配下に`id_rsa(秘密鍵)`と`id_rsa.pub(公開鍵)`が生成されます。GitLabに設定するのは`"公開鍵"`の方です。秘密鍵は秘密にしておいてください。
+`Enter file in which to save the key (/c/Users/hirom/.ssh/id_rsa):`は何も入力しないでください。以降は好きなパスワードを設定してください。
+すると、`~/.ssh/`配下に`id_rsa(秘密鍵)`と`id_rsa.pub(公開鍵)`が生成されます。GitLabに設定するのは`"公開鍵"`の方です。秘密鍵は秘密にしておいてください。
 
 **2. 公開鍵の中身をコピーします**
 
