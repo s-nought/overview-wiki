@@ -2,13 +2,11 @@
 
 **導入要件**
 
-|OS|バージョン|リリース|コードネーム的なやつ|
-|:-:|:-:|:-:|:-:|
-|Windows10|1709|2017/10/17|Fall Creators Update|
+OS|バージョン|リリース|コードネーム的なやつ
+:-:|:-:|:-:|:-:
+Windows10|1709|2017/10/17|Fall Creators Update
 
-`Windows10`を前提としています。(それ以外ではWSLは使えません。。。)
-
-
+`Windows10`を前提としています。(windows10以外のOSまたは導入要件以前のバージョンのWindows10では、WSLは使えません。。。)
 
 ## インストール
 
@@ -58,6 +56,13 @@ WSLの機能を有効化して再起動したら、アプリをダウンロー�
 $ sudo password root
 ```
 
+### いろいろ最新化する
+
+```bash
+$ sudo apt-get update
+$ sudo apt-get upgrade
+```
+
 ### 日本語化
 
 言語パッケージをインストールする。
@@ -91,7 +96,7 @@ set number
 $ sudo add-apt-repository ppa:git-core/ppa
 ```
 
-パッケージの更新を更新する。
+パッケージの更新をする。
 
 ```bash
 $ sudo apt-get update
