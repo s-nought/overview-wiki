@@ -126,3 +126,9 @@ OSのリリースバージョンを更新する。
 ```bash
 $ sudo do-release-upgrade
 ```
+
+バージョンの確認
+
+```bash
+$ lsb_release -a
+```
