@@ -110,3 +110,19 @@ $ sudo apt-get upgrade
 ```bash
 $ git --version
 ```
+
+### OS(Ubuntu)をLTS版から通常版にアップグレード(必要であれば行う)
+
+設定ファイルを修正する。
+
+次のコマンドで設定ファイルを開き、「Prompt=lts」→「Prompt=**normal**」に変更する。
+
+```bash
+sudo vim /etc/update-manager/release-upgrades
+```
+
+OSのリリースバージョンを更新する。
+
+```bash
+$ sudo do-release-upgrade
+```
