@@ -86,19 +86,19 @@ WindowsのInsiderPreviewのときはBash on Ubuntu on Windowsと呼ばれてい�
 
 JavaといえばEclipse！！...の時代も終わりつつあるようです。Gitでプロジェクトを管理するケースが増え、Gitと相性のよい**Intellij**(統合開発環境)が選ばれるようになってきています(使ったことないけどEclipseはGitと相性がよくないのかな？)。また、Eclipseの場合は、先頭文字が一致していないと補完機能が動作しませんが、Intellijでは部分一致でコーディングを補完してくれます。非常に親切です。あと、個人的にはIntellijのデザインの方が好きです。
 
-導入方法は[こちら]()を参照してください。
+## Visual Studio Code(エディター)
 
-## Visual Studio Code(TypeScriptのエディタ)
+
 
 ## Angular(JavaScriptのフレームワーク)
 
-素晴らしすぎるフレームワークです。簡単なWebアプリを作るならAngular以外に選択肢はないでしょう。習得コストは高いかもしれませんが、慣れてしまえば手放せなくなってしまうくらいです。言語はTypeScriptになります。ただ、ビルドするとJavaScriptに変換されるので、JavaScriptが動くブラウザであれば動作します。エディタはVisual Studio Codeがおすすめです。
-
-導入方法は[こちら]()を参照してください。
+素晴らしすぎるフレームワークです。簡単なWebアプリを作るならAngular以外に選択肢はないでしょう。習得コストは高いかもしれませんが、慣れてしまえば手放せなくなってしまうくらいです。言語はTypeScriptになります。ただし、ビルドするとJavaScriptに変換されるので、JavaScriptが動くブラウザであれば動作します。エディタはVisual Studio Codeがおすすめです（デフォルトでフォーマッターやシンタックスハイライトが用意されています）。
 
 ## MEGAsync
 
-## Firebase
+無料で50GB使用できるクラウドストレージです。チャットやビデオ通話等のコミュニケーションツールもあるので便利です。
+
+コスパと将来性を見据えてOne DriveやGoogle Driveから乗り換えました。
 
 # Markdown記法
 
