@@ -180,7 +180,7 @@ $ sudo apt -y install task-japanese locales-all
 以下のファイルを`root`ユーザーで編集する。
 
 ```bash
-# vi /etc/default/locale
+vi /etc/default/locale
 ```
 
 以下を設定して保存する。
