@@ -6,7 +6,7 @@ Ruby on Railsの環境構築手順について記載します。
 
 WSL(Debian)にRuby on Railsの開発環境を構築します。エディターはVisual Studio Codeを使用します。
 
-イメージは次のようになります。
+Railsアプリケーションの実行イメージは次のようになります。
 
 ```mermaid
 sequenceDiagram
