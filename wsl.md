@@ -16,7 +16,7 @@ InsiderPreviewのときとは違って、導入は非常に楽になりました
 
 次の手順に従ってください。(2通りあります)
 
-### 設定から機能を有効にする方法
+### 【方法1】設定から機能を有効にする方法
 
 1. 「Winキー」＋「I」で設定を開く
 1. 「アプリ」を開く
@@ -24,7 +24,7 @@ InsiderPreviewのときとは違って、導入は非常に楽になりました
 1. 左側の「Windowsの機能の有効化または無効化」を開く
 1. 「Windows Subsystem for Linux」にチェックを入れて再起動する
 
-### PowerShellのコマンドから機能を有効にする方法
+### 【方法2】PowerShellのコマンドから機能を有効にする方法
 
 「Windows PowerShell」を`管理者権限`で開いて次のコマンドを実行する。
 
@@ -46,7 +46,11 @@ WSLの機能を有効化して再起動したら、アプリをダウンロー�
 
 環境をもとに戻したい(初期化したい)場合はアプリをアンインストールして、再インストールします。アンインストールするとホームディレクトリも削除されるので、必要であれば適宜バックアップをしましょう。
 
-## 設定(Ubuntuの場合)
+# Ubuntu編
+
+WSLのUbuntuを導入した際の推奨設定について記載します。
+
+## 各種設定
 
 ### rootのパスワード設定
 
@@ -111,7 +115,7 @@ $ sudo apt-get upgrade
 $ git --version
 ```
 
-### OS(Ubuntu)をLTS版から通常版にアップグレード(必要であれば行う)
+### OS(Ubuntu)をLTS版から通常版にアップグレード(2018/04/15現在：不安定になるのでやらない方がいい。。。)
 
 設定ファイルを修正する。
 
@@ -131,4 +135,91 @@ $ sudo do-release-upgrade
 
 ```bash
 $ lsb_release -a
+```
+
+# Debian編
+
+WSLのDebianを導入した際の推奨設定について記載します。
+
+※UbuntuはDebianから派生したディストリビューションであるため、各種設定方法は基本的にUbuntuと同様の手順となります。
+
+## 各種設定
+
+### viの設定
+
+Ubuntuと違い、viのキーバインドが昔の設定となっているため、デフォルトでは矢印キーによるカーソル移動やバックスペースで文字削除ができません。Ubuntu同様の操作感にするためには次を設定します。
+
+viの設定ファイルを作成し、編集する。
+
+```bash
+$ touch ~/.vimrc
+$ vi ~/.vimrc
+```
+
+.vimrcファイルに次を記載して保存する。
+
+```bash
+set nocompatible
+set backspace=indent,eol,start
+```
+
+ターミナルを閉じて再起動すれば設定が読み込まれる。
+
+※rootについても同様に設定ファイルを作成しないと、rootでキーバインドがデフォルトのままになります。
+
+### 日本語化
+
+Ubuntuと実行コマンドが異なります。
+
+日本語関連パッケージをインストールする。
+
+```bash
+$ sudo apt -y install task-japanese locales-all
+```
+
+以下のファイルを`root`ユーザーで編集する。
+
+```bash
+# vi /etc/default/locale
+```
+
+以下を設定して保存する。
+
+```bash
+LANG=ja_JP.UTF-8
+LANGUAGE="ja_JP:ja" 
+```
+
+ターミナルを閉じて再起動すれば日本語化される。
+
+### llコマンドを設定
+
+Debianではデフォルトでllコマンドを使用することができないため、エイリアスを設定する。
+
+以下のファイルを編集する。
+
+```bash
+$ vi .bashrc
+```
+
+以下を追記して保存する。
+
+```bash
+alias ll='ls -la'
+```
+
+ターミナルを閉じて再起動すれば設定が読み込まれる。
+
+### パッケージの更新
+
+Ubuntu同様、aptコマンドを利用する。
+
+とりあえず、次のコマンドを実行することで、全パッケージの更新および不要パッケージの削除を行うことができる。
+
+```bash
+$ sudo apt-get update -y
+$ sudo apt-get upgrade -y
+$ sudo apt-get dist-upgrade -y
+$ sudo apt-get autoremove -y
+$ sudo apt-get autoclean -y
 ```
