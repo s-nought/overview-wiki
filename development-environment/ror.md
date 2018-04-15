@@ -163,3 +163,29 @@ $ rm -f /usr/local/bin/gem
 $ rm -f /usr/bin/gem
 ```
 
+### Visual Studio Codeの設定
+
+Visual Studio Codeを起動して、「ファイル > 基本設定 > 設定」を開き、以下を設定する（Ctl + @でWSLのターミナルを開けるようになる）。
+
+```
+"terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe"
+```
+
+### 動作確認
+
+1. Visual Studio Codeで任意のプロジェクトフォルダーを開く。
+1. WSLのターミナルを開き、次のコマンドでプロジェクトを作成する。
+1. プロジェクト作成コマンドを実行する。
+1. サーバー起動コマンドを実行する。
+1. 任意のブラウザでhttp://localhost:3000にアクセスする。
+  * Ruby on RailsのWelcomeページが表示されていれば :ok\_hand\_tone2: 
+
+* プロジェクト作成コマンド
+```bash
+$ rails new プロジェクト名（任意）
+```
+
+* サーバー起動コマンド
+```bash
+$ rails s
+```
