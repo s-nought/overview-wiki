@@ -180,12 +180,13 @@ Visual Studio Codeを起動して、「ファイル > 基本設定 > 設定」�
 1. 任意のブラウザでhttp://localhost:3000にアクセスする。
   * Ruby on RailsのWelcomeページが表示されていれば :ok\_hand\_tone2: 
 
-* プロジェクト作成コマンド
+* プロジェクト作成
 ```bash
 $ rails new プロジェクト名（任意）
 ```
 
-* サーバー起動コマンド
+* サーバー起動
 ```bash
+$ cd 作成したプロジェクトディレクトリ
 $ rails s
 ```
