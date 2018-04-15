@@ -31,4 +31,8 @@ sequenceDiagram
 
 ## Ruby on Railsとは
 
+Ruby on Railsは、Webアプリケーション開発フレームワークです。
+
+Ruby on Railsを用いてWebアプリケーション開発を行う場合、開発言語は主にRubyとなります。画面のレイアウト関連はHTMLやCSSです。HTMLと言いましたが、実際は`.html.erb`というファイル(Ruby言語を使用できるHTMLを記載するファイル)を作成することになります。
+
 ## 開発環境構築手順
