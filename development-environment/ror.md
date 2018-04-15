@@ -190,3 +190,8 @@ $ rails new プロジェクト名（任意）
 $ cd 作成したプロジェクトディレクトリ
 $ rails s
 ```
+
+* Welcomeページ
+<div align="center">
+  <img src="/uploads/51f21ba8090dfaf06571206db4003756/image.png" alt="Welcomeページ" width="650">
+</div>
