@@ -88,7 +88,7 @@ JavaといえばEclipse！！...の時代も終わりつつあるようです。
 
 ## Visual Studio Code(エディター)
 
-
+[Visual Studio Codeの設定](vscode)
 
 ## Angular(JavaScriptのフレームワーク)
 
